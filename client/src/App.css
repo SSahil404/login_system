@@ -1,0 +1,45 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+form {
+    color: #fff;
+    background: slategray;
+    min-width: 450px;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+form .signup-call {
+    margin: 2rem 0;
+    text-align: right;
+}
+form .signup-call a {
+    color: aquamarine;
+    text-decoration: none;
+}
+form .signup-call a:hover {
+    text-decoration: underline;
+}
+
+.table {
+    width: 450px;
+}
+.userDetails {
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.userDetails h5 {
+    min-width: 180px;
+}
+.userDetails h5.sno {
+    min-width: 20px;
+}
