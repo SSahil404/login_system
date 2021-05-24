@@ -20,7 +20,7 @@ const LoginPage = ({ loginStatus, setLoginStatus }) => {
                 setLoginDetails("");
             }
         });
-    }, [setLoginStatus]);
+    }, [loginStatus, setLoginStatus]);
 
     const loginHandler = (e) => {
         e.preventDefault();
